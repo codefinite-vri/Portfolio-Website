@@ -71,7 +71,6 @@ hr{
   float: left;
   width: 45%;
   padding: 10px;
-  height: 300px;
 }
 
 .row::after {
@@ -132,6 +131,7 @@ hr{
   width: 300px;
   height: 300px;
   perspective: 1000px;
+  margin:0 5% 5% 5%;
 }
 
 .flip-card-inner {
@@ -303,24 +303,22 @@ a{
     text-align: center;
   }
   .column70, .column33, .column30, .column40, .column20, .column25, .flipcard, .card, .flipcard-inner {
-    width: 100%;
+    width: 90%;
+    margin: 0 5% 5% 5%;
   }
   .column {
   width: 100%;
 }
 .column img{
   width:70% !important;
+  margin-bottom:0;
 }
 .topnav img{
   display:none;
 }
-.button1, .button2 {  
-  border: 2px solid #d8c3a5; 
-}
   #home, #about, #experiences, #skills-awards, #projects, #contact {
-    margin-top:0px;
-    margin-bottom:10px;
-    padding: 0px;
+    margin-top:0;
+    padding: 0px !important;
   }
   #home{
     margin-bottom:17vh;
